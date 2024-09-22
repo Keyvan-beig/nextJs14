@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Home = () => {
+const page = () => {
   return (
     <>
       <div className="flex gap-10">
@@ -8,9 +8,11 @@ const Home = () => {
         <Link href="/aboute">aboute</Link>
       </div>
 
-      <p className="my-10">Home page</p>
+      <p className="my-10">
+        aboute page
+      </p>
     </>
   );
 };
 
-export default Home;
+export default page;
